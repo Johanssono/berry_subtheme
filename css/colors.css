@@ -112,3 +112,13 @@ a:active,
   right: -20px;
   left: 0;
 }
+
+article {
+  background-color: #f6f6f2;
+  padding: 2em;
+}
+
+article p {
+  color: hotpink;
+  text-shadow: black 0.1em 0.1em;
+}
