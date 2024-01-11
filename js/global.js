@@ -7,7 +7,7 @@
 
   'use strict';
 
-  Drupal.behaviors.berry = {-subtheme
+  Drupal.behaviors.berry_sumtheme = {-subtheme
     attach: function (context, settings) {
 
     }
