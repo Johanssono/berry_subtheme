@@ -2,3 +2,17 @@
  * @file
  * Subtheme specific CSS.
  */
+
+.sidebar_first {
+margin: 1em;
+margin-left: 0.5em;
+}
+
+article {
+padding: 2em;
+}
+
+.container {
+    
+}
+
