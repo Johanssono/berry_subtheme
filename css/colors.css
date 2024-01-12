@@ -21,9 +21,7 @@ body {
   border-bottom-color: #fff;
 }
 
-#navbar-top {
-  background-color: #055a8e;
-}
+
 
 #navbar-main {
   background-color: #1d84c3;
@@ -120,4 +118,16 @@ article {
 article p {
   color: hotpink;
   text-shadow: black 0.1em 0.1em;
+}
+
+.site-name-slogan {
+  color: var(--secondary)
+}
+
+.article {
+  background-color: hotpink;
+}
+
+.test {
+  background-color: black;
 }
