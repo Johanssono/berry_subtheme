@@ -8,11 +8,8 @@ margin: 1em;
 margin-left: 0.5em;
 }
 
-article {
-padding: 2em;
-}
 
-.container {
-    
-}
 
+.button {
+    margin: 0 auto auto 0.2em;
+}

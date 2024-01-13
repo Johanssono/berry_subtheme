@@ -125,9 +125,18 @@ article p {
 }
 
 .article {
-  background-color: hotpink;
+  background-color: var(--secondary);
 }
 
-.test {
-  background-color: black;
+.navbar {
+  background-color: var(--primary);
+}
+
+.button {
+  background-color: hotpink;
+  border: 0.2em solid #000000E6;
+}
+
+.nav-link {
+  background-color: hotpink;
 }
