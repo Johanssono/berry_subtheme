@@ -8,8 +8,19 @@ margin: 1em;
 margin-left: 0.5em;
 }
 
-
+article {
+    padding: 1em;
+}
 
 .button {
     margin: 0 auto auto 0.2em;
+}
+
+.test {
+    margin-top: 300px;
+}
+
+.article {
+    height: 15em;
+    margin-bottom: 2em;
 }

@@ -79,7 +79,7 @@ a:active,
 }
 
 .site-footer {
-  background: hotpink;
+  background: var(--primary);
 }
 
 .region-header,
@@ -111,21 +111,28 @@ a:active,
   left: 0;
 }
 
-article {
-  background-color: #f6f6f2;
-}
-
 article p {
-  color: hotpink;
-  text-shadow: black 0.1em 0.1em;
+  color: #152A3E;
 }
 
 .site-name-slogan {
   color: var(--secondary)
 }
 
-.article {
+article {
   background-color: var(--secondary);
+}
+
+.article {
+  background-color: #2575C0;
+}
+
+#page {
+  background-color: #7EB2E3;
+}
+
+#main-wrapper {
+  background-color: #7EB2E3;
 }
 
 .navbar {
@@ -133,10 +140,30 @@ article p {
 }
 
 .button {
-  background-color: hotpink;
+  background-color: #75c025;
   border: 0.2em solid #000000E6;
 }
 
 .nav-link {
-  background-color: hotpink;
+  background-color: #75c025;
+}
+
+.content a {
+  color: #75c025;
+}
+
+.nav-link a {
+  color: black;
+}
+
+.content li a {
+  color: #0265ad;
+}
+
+.navbar-brand {
+  color: #000000e6;
+}
+
+.content span {
+  color: black;
 }
