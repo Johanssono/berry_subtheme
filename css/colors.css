@@ -167,3 +167,7 @@ article {
 .content span {
   color: black;
 }
+
+.navbar-toggler {
+  background-color: hotpink;
+}
