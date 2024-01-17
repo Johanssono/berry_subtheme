@@ -7,7 +7,11 @@
 margin: 1em;
 margin-left: 0.5em;
 }
-
+.view-content {
+	display:grid;
+	grid-template-columns: 1fr 1fr; 
+	}
+/*
 article[data-history-node-id="86"] {
     padding: 1em;
     margin: 1em;
@@ -74,3 +78,4 @@ div .views-row {
     gap: 2em;
     margin-left: -5em;
 }
+*/
