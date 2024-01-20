@@ -11,71 +11,21 @@ margin-left: 0.5em;
 	display:grid;
 	grid-template-columns: 1fr 1fr; 
 	}
-/*
-article[data-history-node-id="86"] {
-    padding: 1em;
-    margin: 1em;
-    grid-column: 3;
-    grid-row: 1;
+
+.navbar-side {
+    width: 10rem;
+    height: 100vh;
+    position: fixed;
 }
 
-article[data-history-node-id="81"] {
-    padding: 1em;
-    margin: 1em;
-    grid-column: 1;
-    grid-row: 1;
+.navbar {
+    margin-left: 10rem;
 }
 
-article[data-history-node-id="87"] {
-    padding: 1em;
-    margin: 1em;
-    grid-column: 2/5;
-    grid-row: 2;
+.navbar-side .search-form, .navbar-side .clearfix a {
+    margin: 1rem;
 }
 
-article[data-history-node-id="88"] {
-    padding: 1em;
-    margin: 1em;
-    grid-column: 3;
-    grid-row: 2;
+.arrow-remover.btn::after {
+    border: none;
 }
-
-article[data-history-node-id="78"] {
-    padding: 1em;
-    margin: 1em;
-    grid-column: 2;
-    grid-row: 4;
-}
-
-article[data-history-node-id="84"] {
-    padding: 1em;
-    margin: 1em;
-    grid-column: 3;
-    grid-row: 4;  
-}
-
-.button {
-    margin: 0 auto auto 0.2em;
-}
-
-.article {
-    height: 15em;
-    margin-bottom: 2em;
-}
-
-.view-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(10rem, auto);
-    gap: 2em;
-    margin-left: -5em;
-}
-
-div .views-row {
-    display: inlin;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(10rem, auto);
-    gap: 2em;
-    margin-left: -5em;
-}
-*/
