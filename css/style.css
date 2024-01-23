@@ -20,7 +20,11 @@
 }
 
 .navbar-second {
+    margin-bottom: 2rem;
+}
 
+.account-menu {
+    height: 5rem;
 }
 
 
