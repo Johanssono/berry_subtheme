@@ -27,11 +27,6 @@
     height: 5rem;
 }
 
-
-.nav-button {
-    background-color: #75c025;
-}
-
 .arrow-remover.btn::after {
     border: none;
 }
@@ -48,4 +43,11 @@
 .dropdown-toggle svg {
     width: 50%;
     height: 50%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3rem;
 }
