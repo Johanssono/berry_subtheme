@@ -123,15 +123,11 @@ article {
 }
 
 .navbar-second {
-  background-color: #2575C0;
-}
-
-#page {
-  background-color: #7EB2E3;
+  background-color: var(--second-nav);
 }
 
 #main-wrapper {
-  background-color: #7EB2E3;
+  background-color: var(--info);
 }
 
 .navbar {
@@ -170,4 +166,8 @@ article {
 .navbar-toggler {
   background-color: #75c025;
   color: black  ;
+}
+
+.dropdown-toggle:hover {
+  background-color: hotpink;
 }
