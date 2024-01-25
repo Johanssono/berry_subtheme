@@ -170,4 +170,12 @@ article {
 .navbar-toggler {
   background-color: #75c025;
   color: black  ;
+<<<<<<< HEAD
+}
+
+.dropdown-toggle:hover {
+  background-color: hotpink;
+  border-color: hotpink;
+=======
+>>>>>>> parent of b6a7fce (saker)
 }
