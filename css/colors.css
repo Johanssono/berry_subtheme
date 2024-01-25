@@ -170,4 +170,5 @@ article {
 
 .dropdown-toggle:hover {
   background-color: hotpink;
+  border-color: hotpink;
 }
