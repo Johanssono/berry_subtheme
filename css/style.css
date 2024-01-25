@@ -3,6 +3,11 @@
  * Subtheme specific CSS.
  */
 
+ .sidebar_first {
+    margin: 1em;
+    margin-left: 0.5em;
+}
+
 .view-content {
 	display:grid;
 	grid-template-columns: 1fr 1fr; 
@@ -12,7 +17,18 @@
     width: 35rem;
     height: auto;
     padding: 2rem;
-    margin-top: 2rem;
+}
+
+.navbar-second {
+    margin-bottom: 2rem;
+}
+
+.navbar-second {
+    margin-bottom: 2rem;
+}
+
+.account-menu {
+    height: 5rem;
 }
 
 .arrow-remover.btn::after {
@@ -20,42 +36,22 @@
 }
 
 .dropdown-toggle {
+    transform: scale(0.2);
     transition: background-color 400ms 0.05s;
 }
 
+.dropdown-toggle:hover {
+    background-color: hotpink;
+}
+
 .dropdown-toggle svg {
-    transform: scale(0.2);
     width: 50%;
     height: 50%;
 }
 
-.navbar-second {
-    margin-top: 2rem;
-
-}
-
 .navbar-container {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    flex-direction: column;
-}
-
-.dropdown {
-    margin-top: auto;
-}
-
-.search-form {
+    justify-content: flex-start;
     align-items: center;
-    gap: 0.5rem;
-}
-
-#page-wrapper {
-    max-width: 100vw;
-    max-height: 100dvh;
-}
-
-.btn {
-    font-weight: bold;
+    height: 3rem;
 }
