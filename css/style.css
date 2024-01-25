@@ -15,29 +15,37 @@
     margin-top: 2rem;
 }
 
-.account-menu {
-    height: 5rem;
-}
-
 .arrow-remover.btn::after {
     border: none;
 }
 
 .dropdown-toggle {
-    transform: scale(0.2);
     transition: background-color 400ms 0.05s;
 }
 
 .dropdown-toggle svg {
+    transform: scale(0.2);
     width: 50%;
     height: 50%;
 }
 
+.navbar-second {
+    width: 10rem;
+    height: 100ch;
+    position: fixed;
+
+}
+
 .navbar-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 3rem;
+    flex-direction: column;
+}
+
+.dropdown {
+    margin-top: auto;
 }
 
 .search-form {
@@ -48,4 +56,8 @@
 #page-wrapper {
     max-width: 100vw;
     max-height: 100dvh;
+}
+
+.btn {
+    font-weight: bold;
 }
