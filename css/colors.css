@@ -120,6 +120,7 @@ article p {
 
 article {
   background-color: var(--secondary);
+  box-shadow: -0.2em -0.2em 1em black;
 }
 
 .navbar-second {
@@ -134,13 +135,9 @@ article {
   background-color: var(--primary);
 }
 
-.button {
+.button, .nav-button {
   background-color: #75c025;
   border: 0.2em solid #000000E6;
-}
-
-.nav-link, .nav-button {
-  background-color: #75c025;
 }
 
 .content a {
@@ -174,4 +171,12 @@ article {
 
 .dropdown-toggle:hover {
   background-color: hotpink;
+}
+
+.dropdown-toggle {
+  box-shadow: -1em -0.5em 4em black;
+}
+
+.node--type-article {
+  box-shadow: none;
 }

@@ -8,19 +8,16 @@
 .view-content {
 	display:grid;
 	grid-template-columns: repeat(2, 1fr);
-    gap: 2rem 1rem;
+    gap: 2rem 2rem;
     margin-top: 3rem;
-    margin-top: 2rem;
-}
-
-.node--type-article {
-    min-height: 100%;
 }
 
 .node--type-article {
     width: 35rem;
     height: auto;
     padding: 2rem;
+    min-height: 100%;
+    border: none;
 }
 
 .arrow-remover.btn::after {
@@ -57,16 +54,11 @@
 }
 
 .nav-button svg{
-    transform: scale(0.5);
+    transform: scale(0.7);
 }
 
 .navbar-second {
     height: 3rem;
-}
-
-.search-form {
-    align-items: center;
-    gap: 0.5rem;
 }
 
 .page-selector {
@@ -76,7 +68,7 @@
 .nav-button{
     display: flex;
     flex-direction: row;
-    width: 6rem;
+    width: 6.5rem;
     align-items: center;
 }
 
