@@ -12,6 +12,15 @@
     margin-top: 3rem;
 }
 
+.view-content > .views-row {
+    display: grid;
+    gap: 0;
+    grid-column: span 3;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+    grid-row: span 6;
+}
+
 .views-row {
     width: 35rem;
     height: auto;
