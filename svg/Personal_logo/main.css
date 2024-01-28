@@ -1,0 +1,42 @@
+#path1045-2{
+    animation: rotate_background 15s infinite linear, background_color 7.5s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes rotate_background{
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg; 
+    }
+}
+
+@keyframes background_color{
+    0%{
+        fill: black;
+    }
+    50%{
+        fill: white;
+    }
+    100%{
+        fill: black;
+    }
+}
+
+
+#text1114-7, #path233-0, #path165-27-0-8, #path165-27-8{
+    animation: primary_color 7.5s infinite linear;
+}
+
+@keyframes primary_color{
+    0% {
+        fill: hsla(300, 100, 50, 100);
+    }
+    50% {
+        fill: black;
+    }
+    100% {
+        fill: hsla(300, 100, 50, 100);
+    }
+}

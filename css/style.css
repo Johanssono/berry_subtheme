@@ -12,7 +12,7 @@
     margin-top: 3rem;
 }
 
-.node--type-article {
+.views-row {
     width: 35rem;
     height: auto;
     padding: 2rem;
@@ -37,15 +37,9 @@
     height: 3rem;
 }
 
-
 .search-form {
     align-items: center;
     gap: 0.5rem;
-}
-
-#page-wrapper {
-    max-width: 100vw;
-    max-height: 100dvh;
 }
 
 .dropdown-toggle svg {
@@ -58,11 +52,14 @@
 }
 
 .navbar-second {
-    height: 3rem;
+    height: 4rem;
+    display: flex;
+        align-items: center;
 }
 
 .page-selector {
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .nav-button{
@@ -76,5 +73,25 @@
     gap: 0.5rem;
     display: flex;
     height: 2.5rem;
-    margin-left: 3rem;
+}
+
+.navbar-brand {
+    transform: scale(1);
+}
+
+#svg11998 {
+    width: 5rem;
+    height: 8rem;
+    scale: 1.5;
+}
+
+#layer1 {
+    scale: 1.2;
+}
+
+.site-footer #svg11998 {
+    scale: 2;
+    width: 5rem;
+    height: 5rem;
+    margin-top: -1.5rem;
 }
