@@ -12,16 +12,16 @@
     margin-top: 3rem;
 }
 
-/**
+
 .view-content > .views-row {
     display: grid;
     gap: 0;
-    grid-column: span 3;
+    grid-column: span 1;
     grid-template-columns: subgrid;
     grid-template-rows: subgrid;
     grid-row: span 6;
 }
- */
+
 
 
 .views-row {
@@ -86,6 +86,27 @@
     display: flex;
     height: 2.5rem;
 }
+
+@media (max-width: 1250px) {
+    .view-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navbar-brand {
     transform: scale(1);
