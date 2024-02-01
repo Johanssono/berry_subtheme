@@ -82,3 +82,32 @@ height: 3rem;
                   </ul>
             </div>
           </nav>
+
+
+
+
+
+
+       <nav{{ navbar_attributes }} class="navbar-second">
+          {% if container_navbar %}
+          <div class="container navbar-container">
+          {% endif %}
+            {{ page.header }}
+            {% if page.primary_menu or page.header_form %}
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+              <div class="collapse navbar-collapse" id="CollapsingNavbar">
+                {{ page.primary_menu }}
+                {% if page.header_form %}
+                  <div class="form-inline navbar-form float-right">
+                    {{ page.header_form }}
+                  </div>
+                {% endif %}
+	          </div>
+            {% endif %}
+            {% if sidebar_collapse %}
+              <button class="navbar-toggler navbar-toggler-left collapsed" type="button" data-toggle="collapse" data-target="#CollapsingLeft" aria-controls="CollapsingLeft" aria-expanded="false" aria-label="Toggle navigation"></button>
+            {% endif %}
+          {% if container_navbar %}
+          </div>
+          {% endif %}
+        </nav>
