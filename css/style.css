@@ -4,6 +4,9 @@
  */
 
 
+body {
+    margin: 0;
+}
 
 .view-content {
 	display:grid;
@@ -47,6 +50,7 @@
     justify-content: space-between;
     align-items: center;
     height: 3rem;
+    background-color: hotpink;
 }
 
 .search-form {
@@ -87,6 +91,59 @@
     height: 2.5rem;
 }
 
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 3;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.hamburger-menu::before, 
+.hamburger-menu::after,
+.hamburger-menu input {
+    content: "";
+    width: 45px;
+    height: 8px;
+    background-color: hotpink;
+    border-radius: 9999rem;
+    color: black;
+    transition: opacity 0.25s, width 0.25s, translate 0.25s, rotate 0.25s;
+    transform-origin: left center;
+}
+
+.hamburger-menu input {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+}
+
+.hamburger-menu:has(input:checked)::before {
+    rotate: 45deg;
+    width: 45px;
+    translate: 0 -4px;
+}
+
+.hamburger-menu:has(input:checked)::after {
+    rotate: -45deg;
+    width: 45px;
+    translate: 0 4px;
+}
+
+.hamburger-menu input:checked {
+    opacity: 0;
+    width: 0;
+}
+
+.hamburger-menu input:checked + .navbar-second {
+
+}
+
+
 @media (max-width: 1250px) {
     .view-content {
         display: flex;
@@ -96,6 +153,17 @@
     .row {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .view-content > .views-row  {
+        display: block;
+    }
+
+    .navbar-container {
+        width: 10rem;
+        height: 100vh;
+
+        flex-direction: column;
     }
 
 } 
