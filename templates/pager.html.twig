@@ -22,7 +22,7 @@
  * - current: The page number of the current page.
  * - ellipses: If there are more pages than the quantity allows, then an
  *   ellipsis before or after the listed pages may be present.
- *   - previous: Present if thepagination-headingpagination-heading currently visible list of pages does not start
+ *   - previous: Present if the currently visible list of pages does not start
  *     at the first page.
  *   - next: Present if the visible list of pages ends before the last page.
  *
@@ -30,7 +30,7 @@
  */
 #}
 {% if items %}
-  <nav class="page-selector">
+  <nav aria-label="{{ heading_id }}">
     <h4 id="{{ heading_id }}" class="visually-hidden">{{ 'Pagination'|t }}</h4>
     <ul class="pagination js-pager__items">
       {# Print first item if we are not on the first page. #}

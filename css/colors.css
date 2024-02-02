@@ -24,7 +24,7 @@ body {
 
 
 #navbar-main {
-  background-color: #1d84c3;
+  background-color: var(--second-nav);
 }
 
 a, .link {
@@ -127,10 +127,6 @@ a:active,
   box-shadow: -0.2em -0.2em 1em black;
 }
 
-.navbar-second {
-  background-color: var(--second-nav);
-}
-
 #main-wrapper {
   background-color: var(--info);
 }
@@ -156,29 +152,6 @@ a {
   color: black;
 }
 
-.img-fluid {
-  color:  hotpink;
-}
-
-.navbar-toggler {
-  background-color: #75c025;
-  color: black  ;
-}
-
-.dropdown-toggle:hover {
-  background-color: hotpink;
-}
-
 .dropdown-toggle {
   box-shadow: -1em -0.5em 4em black;
-}
-
-.sidebar {
-  background-color: var(--second-nav);
-}
-
-.hamburger-menu:has(input:focus-visible)::before,
-.hamburger-menu:has(input:focus-visible)::after,
-.hamburger-menu:has(input:focus-visible) {
-    border: 0.05rem solid #ff2300;
 }

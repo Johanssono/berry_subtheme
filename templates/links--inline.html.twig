@@ -48,15 +48,13 @@
     <nav{{ attributes.addClass(['nav', 'links-inline']) }}>
       {%- for key, item in links -%}
         <span{{ item.attributes.addClass(key|clean_class, 'nav-link') }}>
-          <button class="btn nav-button" type="submit" <a href="/" class="nav-link nav-link-- is-active" data-drupal-link-system-path="<front>">
-            {%- if item.link -%}
-              {{ item.link }}
-            {%- elseif item.text_attributes -%}
-              <span{{ item.text_attributes }}>{{ item.text }}</span>
-            {%- else -%}
-              {{ item.text }}
-            {%- endif -%}
-          </button>
+          {%- if item.link -%}
+            {{ item.link }}
+          {%- elseif item.text_attributes -%}
+            <span{{ item.text_attributes }}>{{ item.text }}</span>
+          {%- else -%}
+            {{ item.text }}
+          {%- endif -%}
         </span>
       {%- endfor -%}
     </nav>
