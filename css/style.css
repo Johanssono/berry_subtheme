@@ -139,8 +139,17 @@ body {
     width: 0;
 }
 
-.hamburger-menu input:checked + .navbar-second {
+.hamburger-menu input:checked + .sidebar {
+    translate: 0;
+}
 
+.sidebar {
+    display: none;
+    translate: 0 100%;
+    max-width: 100%;
+    max-height: 10rem;
+    padding-right: 0.5rem;
+    transition: translate 0.25s ease-in-out;
 }
 
 
@@ -159,11 +168,13 @@ body {
         display: block;
     }
 
-    .navbar-container {
-        width: 10rem;
-        height: 100vh;
-
+    .sidebar {
+        display: flex;
         flex-direction: column;
+    }
+
+    .navbar-second:first-child {
+        display: none;
     }
 
 } 

@@ -172,3 +172,13 @@ a {
 .dropdown-toggle {
   box-shadow: -1em -0.5em 4em black;
 }
+
+.sidebar {
+  background-color: var(--second-nav);
+}
+
+.hamburger-menu:has(input:focus-visible)::before,
+.hamburger-menu:has(input:focus-visible)::after,
+.hamburger-menu:has(input:focus-visible) {
+    border: 0.05rem solid #ff2300;
+}
