@@ -12,7 +12,7 @@ body {
 	display:grid;
 	grid-template-columns: repeat(2, 1fr);
     gap: 2rem 2rem;
-    margin-top: 3rem;
+    margin: 3rem 0 2rem 0
 }
 
 
