@@ -45,3 +45,27 @@ body {
     display: flex;
     height: 2.5rem;
 }
+
+@media (max-width: 1250px) {
+    .view-content {
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem 2rem;
+        margin: 3rem 0 2rem 0
+    }
+} 
+
+@media (max-width: 400px) {
+    .view-content > .views-row {
+        display: block;
+    }
+
+    .view-content {
+        display: block;
+    }
+
+    .field--type-image img {
+        width: 50%;
+        height: 50%;
+    }
+} 
