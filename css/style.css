@@ -69,3 +69,65 @@ body {
         height: 50%;
     }
 } 
+
+.navbar-collapse {
+    justify-content: inherit !important;
+}
+
+.block-search {
+    margin-left: auto;
+}
+
+.region-top-header {
+    margin-left: 0;
+}
+
+
+
+
+
+
+.arrow-remover.btn::after {
+    border: none;
+}
+
+.dropdown-toggle {
+    transform: scale(0.2);
+    transition: background-color 400ms 0.05s;
+    margin-right: -8rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    background-color: hotpink;
+}
+
+.dropdown-toggle svg {
+    width: 50%;
+    height: 50%;
+}
+
+.nav-button svg{
+    transform: scale(0.7);
+}
+
+.navbar-second {
+    height: 4rem;
+    display: flex;
+        align-items: center;
+}
+
+.page-selector {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.nav-button{
+    display: flex;
+    flex-direction: row;
+    width: 6.5rem;
+    align-items: center;
+}

@@ -156,3 +156,18 @@ a {
   box-shadow: -1em -0.5em 4em black;
 }
 
+
+
+
+.img-fluid {
+  color:  hotpink;
+}
+
+.navbar-toggler {
+  background-color: #75c025;
+  color: black  ;
+}
+
+.dropdown-toggle:hover {
+  background-color: hotpink;
+}
