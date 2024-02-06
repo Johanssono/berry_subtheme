@@ -82,6 +82,26 @@ body {
     margin-left: 0;
 }
 
+.bar {
+    transition: y 300ms ease-in, rotate 300ms ease-in 300ms, oppacity 0ms 300ms;
+    transform-origin: center;
+    border-radius: 30px;
+}
+
+
+
+.navbar-toggler[aria-expanded="true"] .bar {
+    transition: rotate 300ms ease-in, y 300ms ease-in 300ms, oppacity 0ms 300ms;
+    border-radius: 30px;
+}
+
+.navbar-toggler[aria-expanded="true"] .bar_top {
+    transform: translate(0, 0);
+}
+
+.navbar-toggler[aria-expanded="true"] .bar_bottom {
+    transform: translate(0, 0);
+}
 
 
 
