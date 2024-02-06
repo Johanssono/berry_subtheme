@@ -86,9 +86,26 @@ body {
     transition: y 300ms ease-in, rotate 300ms ease-in 300ms, oppacity 0ms 300ms;
     transform-origin: center;
     border-radius: 30px;
+    
 }
 
+.bar_top {
+    transform: translate(30px, 26px);
+    width: 60px;
+    height: 10px;
+}
 
+.bar_middle {
+    transform: translate(30px, 46px);
+    width: 60px;
+    height: 10px;
+}
+
+.bar_bottom {
+    transform: translate(30px, 65px);
+    width: 60px;
+    height: 10px;
+}
 
 .navbar-toggler[aria-expanded="true"] .bar {
     transition: rotate 300ms ease-in, y 300ms ease-in 300ms, oppacity 0ms 300ms;
@@ -96,13 +113,21 @@ body {
 }
 
 .navbar-toggler[aria-expanded="true"] .bar_top {
-    transform: translate(0, 0);
+    transform: translate(35px, 20px);
+    width: 10px;
+    rotate: 45deg;
 }
 
 .navbar-toggler[aria-expanded="true"] .bar_bottom {
-    transform: translate(0, 0);
+    transform: translate(-5px, -8px);
+    width: 10px;
+    rotate: 135deg;
 }
 
+
+.navbar-toggler[aria-expanded="true"] .bar_middle {
+    opacity: 0;
+}
 
 
 
