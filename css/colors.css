@@ -66,20 +66,6 @@ a:active,
   background-color: var(--secondary);
 }
 
-.page-link:hover {
-  background-color: #23304F;
-}
-
-.btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.btn-primary:hover,
-.btn-primary:focus {
-  background-color: #0256b1;
-}
-
 .site-footer {
   background: var(--primary);
 }
@@ -140,6 +126,10 @@ a:active,
   border: 0.05em solid #000000E6;
 }
 
+.form-submit:hover {
+  background-color: #60a517;
+}
+
 a {
   color: #75c025;
 }
@@ -154,6 +144,11 @@ a {
 
 .dropdown-toggle {
   box-shadow: -1em -0.5em 4em black;
+}
+
+
+.site_branding {
+  color: #A3C4E2;
 }
 
 

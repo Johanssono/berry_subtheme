@@ -70,6 +70,11 @@ body {
     }
 } 
 
+.nav-link {
+    margin-left: 0.75rem;
+    padding-left: 0;
+}
+
 .navbar-collapse {
     justify-content: inherit !important;
 }
@@ -83,7 +88,7 @@ body {
 }
 
 .bar {
-    transition: y 300ms ease-in, rotate 300ms ease-in 300ms, oppacity 0ms 300ms;
+    transition: y 3s ease-in, width 3s ease-in, rotate 3s ease-in 3s, oppacity 0ms 3s;
     transform-origin: center;
     border-radius: 30px;
     
@@ -108,26 +113,71 @@ body {
 }
 
 .navbar-toggler[aria-expanded="true"] .bar {
-    transition: rotate 300ms ease-in, y 300ms ease-in 300ms, oppacity 0ms 300ms;
+    transition: rotate 3s ease-in, y 3s ease-in 3s, oppacity 0ms 3s, transform 3s ease-in   ;
     border-radius: 30px;
 }
 
 .navbar-toggler[aria-expanded="true"] .bar_top {
-    transform: translate(35px, 20px);
-    width: 10px;
-    rotate: 45deg;
+    transform: translate(30px, 46px);
 }
 
 .navbar-toggler[aria-expanded="true"] .bar_bottom {
-    transform: translate(-5px, -8px);
-    width: 10px;
-    rotate: 135deg;
+    transform: translate(30px, 46px);
 }
 
 
 .navbar-toggler[aria-expanded="true"] .bar_middle {
     opacity: 0;
 }
+
+.social-media-sharing ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.region-footer-second {
+    height: 10rem;
+    margin-top: -2rem;
+}
+
+.site_branding {
+    margin-right: 1rem;
+}
+
+.navbar-brand {
+    transform: scale(1);
+    width: 7rem;
+}
+
+#svg11998 {
+    width: 5rem;
+    height: 8rem;
+    scale: 1.5;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+#layer1 {
+    scale: 1.2;
+}
+
+.site-footer #svg11998 {
+    scale: 2;
+    width: 5rem;
+    height: 5rem;
+    margin-top: -1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
