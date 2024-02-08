@@ -1,3 +1,38 @@
+.button .bar {
+    fill: black;
+    transition: rotate 0.5s ease-in, y 0.5s ease-in 0.5s, opacity 0s ease-in 0.5s;
+    transform-origin: center;
+}
+
+.button:hover .bar {
+    fill: black;
+    transition: rotate 0.5s ease-in 0.5s, y 0.5s ease-in, opacity 0s ease-in 0.5s;
+    transform-origin: center;
+}
+
+
+.button[aria-expanded="true"] .bar_top {
+    y: 45; 
+}
+
+.button:hover .bar_top {
+    rotate: 45deg;
+}
+
+.button:hover .bar_middle {
+    opacity: 0;
+}
+
+.button:hover .bar_bottom {
+    rotate: -45deg;
+}
+
+.button:hover :is(.bar_top, .bar_bottom) {
+    y: 45;
+}
+
+
+/*
 .bar_top {
     width: 60px;
     height: 10px;
@@ -16,3 +51,55 @@
     width: 60px;
     height: 10px;
 }
+
+
+
+
+.bar {
+    transition: y 3s ease-in, width 3s ease-in, rotate 3s ease-in 3s, oppacity 0ms 3s;
+    transform-origin: center;
+    border-radius: 30px;
+    
+}
+
+.bar_top {
+    transform: translate(30px, 26px);
+    width: 60px;
+    height: 10px;
+}
+
+.bar_middle {
+    transform: translate(30px, 46px);
+    width: 60px;
+    height: 10px;
+}
+
+.bar_bottom {
+    transform: translate(30px, 65px);
+    width: 60px;
+    height: 10px;
+}
+
+.navbar-toggler[aria-expanded="true"] .bar {
+    transition: rotate 3s ease-in, y 3s ease-in 3s, oppacity 0ms 3s, transform 3s ease-in, width 3s ease-in;
+    border-radius: 30px;
+}
+
+.navbar-toggler[aria-expanded="true"] .bar_top {
+    transform: translate(55px, 46px);
+    transform-origin: 100% 52%;
+
+    width: 10px;
+
+}
+
+.navbar-toggler[aria-expanded="true"] .bar_bottom {
+    transform: translate(55px, 46px);
+    width: 10px;
+}
+
+
+.navbar-toggler[aria-expanded="true"] .bar_middle {
+    opacity: 0;
+}
+*/

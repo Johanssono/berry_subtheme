@@ -8,10 +8,14 @@
 
     </head>
     <body>
-            <svg class="hamburger" viewbox="30 20 60 60">
-            <rect class="bar bar_top"></rect>
-            <rect class="bar bar_middle"></rect>
-            <rect class="bar bar_bottom"></rect>
+        <button class="navbar-toggler collapsed button" type="button" data-bs-toggle="{{ navbar_collapse_btn_data }}" data-bs-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+            <svg class="hamburger" viewbox="0 0 100 100" width="250">
+            <rect class="bar bar_top" width="80" height="10" x="10" y="25" rx="5"></rect>
+            <rect class="bar bar_middle" width="80" height="10" x="10" y="45" rx="5"></rect>
+            <rect class="bar bar_bottom" width="80" height="10" x="10" y="65" rx="5"></rect>
             </svg>
+        </span>
+        </button>
     </body>
 </html>
