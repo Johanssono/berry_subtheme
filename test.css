@@ -1,0 +1,18 @@
+.bar_top {
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    display: block;
+}
+
+.bar_middle {
+    transform: translate(30px, 46px);
+    width: 60px;
+    height: 10px;
+}
+
+.bar_bottom {
+    transform: translate(30px, 65px);
+    width: 60px;
+    height: 10px;
+}

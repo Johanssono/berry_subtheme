@@ -113,16 +113,21 @@ body {
 }
 
 .navbar-toggler[aria-expanded="true"] .bar {
-    transition: rotate 3s ease-in, y 3s ease-in 3s, oppacity 0ms 3s, transform 3s ease-in   ;
+    transition: rotate 3s ease-in, y 3s ease-in 3s, oppacity 0ms 3s, transform 3s ease-in, width 3s ease-in;
     border-radius: 30px;
 }
 
 .navbar-toggler[aria-expanded="true"] .bar_top {
-    transform: translate(30px, 46px);
+    transform: translate(55px, 46px);
+    transform-origin: 100% 52%;
+
+    width: 10px;
+
 }
 
 .navbar-toggler[aria-expanded="true"] .bar_bottom {
-    transform: translate(30px, 46px);
+    transform: translate(55px, 46px);
+    width: 10px;
 }
 
 
@@ -168,6 +173,9 @@ body {
     margin-top: -1.5rem;
 }
 
+.mb-3 {
+    margin-bottom: 0 !important;
+}
 
 
 
