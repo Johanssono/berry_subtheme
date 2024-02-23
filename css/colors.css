@@ -35,7 +35,7 @@ a, .link {
 .views-row a:focus,
 .link:hover,
 .link:focus {
-  color: var(--link-color-hover);
+  color: var(--link-hover);
 }
 .nav-item .dropdown-item a.active {
   color: white;
@@ -159,4 +159,8 @@ a, .link {
 
 .dropdown-toggle:hover {
   background-color: hotpink;
+}
+
+a:hover {
+  color: hotpink;
 }

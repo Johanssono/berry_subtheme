@@ -150,12 +150,16 @@ body {
 
 
 .button[aria-expanded="false"] .bar {
-    transition: rotate 0.5s ease-in, transform 0.5s ease-in 0.5s, opacity 0s ease-in;
+    transition: transform 300ms ease-in 300ms, 
+    rotate 300ms ease-in, 
+    opacity 0ms 300ms;
     transform-origin: center;
 }
 
 .button[aria-expanded="true"] .bar {
-    transition: rotate 0.5s ease-in 0.5s, transform 0.5s ease-in, opacity 0s ease-in 0.5s;
+    transition: transform 300ms ease-in, 
+    rotate 300ms ease-in 300ms, 
+    opacity 300ms 300ms;
     transform-origin: center;
 }
 
