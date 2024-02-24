@@ -149,7 +149,7 @@ body {
 */
 
 
-.button[aria-expanded="false"] .bar {
+.button .bar {
     transition: transform 300ms ease-in 300ms, 
     rotate 300ms ease-in, 
     opacity 0ms 300ms;
@@ -159,44 +159,27 @@ body {
 .button[aria-expanded="true"] .bar {
     transition: transform 300ms ease-in, 
     rotate 300ms ease-in 300ms, 
-    opacity 300ms 300ms;
+    opacity 0ms 300ms;
     transform-origin: center;
 }
 
-.hamburger {
-    width: 2rem;
-}
 
 .bar {
-    width: 6rem;
-    height: 0.9rem;
     transform-origin: center;
 }
 
-.bar_top {
-    transform: translate(0.25rem, 0.75rem);
-}
-
-.bar_middle {
-    transform: translate(0.25rem, 2.7rem);
-}
-
-.bar_bottom {
-    transform: translate(0.25rem, 4.7rem);
-}
 
 .button[aria-expanded="true"] .bar_top {
-    transform: translate(0.25rem, 2.7rem);
+    transform: translate(0, 2.7rem);
     rotate: 45deg;
 }
 
 .button[aria-expanded="true"] .bar_middle {
     opacity: 0;
-    transform: translate(0.25rem, 2.7rem);
 }
 
 .button[aria-expanded="true"] .bar_bottom {
-    transform: translate(0.25rem, 2.7rem);
+    transform: translate(0, -2.7rem);
     rotate: -45deg;
 }
 
