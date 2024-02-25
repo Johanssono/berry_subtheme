@@ -31,12 +31,6 @@ a, .link {
   color: #0071b3;
 }
 
-.views-row a:hover,
-.views-row a:focus,
-.link:hover,
-.link:focus {
-  color: var(--link-hover);
-}
 .nav-item .dropdown-item a.active {
   color: white;
 }
@@ -45,7 +39,7 @@ a, .link {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--link-color-hover);
+  color: var(--link-hover-color);
   text-decoration: underline;
 
 }
@@ -56,10 +50,8 @@ a, .link {
   color: var(--secondary);
 }
 
-.page-item 
-
 .page-link {
-  color: #ff2300;
+  color: var(--page-link-color);
   border-color: var(--primary);
   background-color: var(--secondary);
 }
@@ -106,9 +98,21 @@ a, .link {
   color: var(--text-color)
 }
 
+.site-name-slogan, .navbar-brand, .views-row, .views-row a:hover {
+  color: var(--card-link-hover-color)
+}
+
+.site-footer .content a, .views-row li a {
+  color: var(--button-color); 
+}
+
+.site-footer .content a:hover, .views-row li a:hover {
+  color: var(--link-hover-color); 
+}
+
 .views-row {
   background-color: var(--secondary);
-  box-shadow: -0.2em -0.2em 1em black;
+  box-shadow: -0.2em -0.2em 1em var(--black);
 }
 
 #main-wrapper {
@@ -120,47 +124,39 @@ a, .link {
 }
 
 .button, .nav-button {
-  background-color: #75c025;
+  background-color: var(--button-color);
   border: 0.05em solid #000000E6;
 }
 
 .form-submit:hover {
-  background-color: #60a517;
-}
-
-.site-footer .content a, .views-row li a {
-  color: #75c025; 
+  background-color: var(--link-hover-color);
 }
 
 .btn a {
-  color: black;
+  color: var(--black);
 }
 
 .dropdown-toggle {
-  box-shadow: -1em -0.5em 4em black;
+  box-shadow: -1em -0.5em 4em var(--black);
 }
-
 
 .site_branding {
   color: var(--text-color);
 }
 
-
-
-
 .img-fluid {
-  color:  hotpink;
+  color:  var(--drop-down-color);
 }
 
 .navbar-toggler {
-  background-color: #75c025;
-  color: black  ;
+  background-color: var(--button-color);
+  color: var(--black)  ;
 }
 
 .dropdown-toggle:hover {
-  background-color: hotpink;
+  background-color: var(--drop-down-color);
 }
 
 a:hover {
-  color: hotpink;
+  color: var(--drop-down-color);
 }

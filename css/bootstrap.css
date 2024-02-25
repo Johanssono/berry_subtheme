@@ -11,6 +11,7 @@
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
+  --black: #0A0D1F;
   --gray-dark: #343a40;
   --primary: #1E2C4D;
   --secondary: #2D3D64;
@@ -22,8 +23,11 @@
   --dark: #343a40;
   --second-nav: #2C3C65;
   --text-color: #A3C4E2;
-  --link-color-hover: #88a5bf;
-  --link-hover: #60a517;
+  --card-link-hover-color: #88a5bf;
+  --link-hover-color: #60a517;
+  --button-color: #75c025;
+  --page-link-color: #ff2300;
+  --drop-down-color: #FF69B4;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
