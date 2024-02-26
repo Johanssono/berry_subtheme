@@ -170,7 +170,7 @@ body {
 
 
 .button[aria-expanded="true"] .bar_top {
-    transform: translate(0, 2.7rem);
+    transform: translate(0 , 25px);
     rotate: 45deg;
 }
 
@@ -179,7 +179,7 @@ body {
 }
 
 .button[aria-expanded="true"] .bar_bottom {
-    transform: translate(0, -2.7rem);
+    transform: translate(0, -34px);
     rotate: -45deg;
 }
 
