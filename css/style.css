@@ -3,18 +3,12 @@
  * Subtheme specific CSS.
  */
 
-
-body {
-    margin: 0;
-}
-
 .view-content {
 	display:grid;
 	grid-template-columns: repeat(2, 1fr);
     gap: 2rem 2rem;
     margin: 3rem 0 2rem 0
 }
-
 
 .view-content > .views-row {
     display: grid;
@@ -37,23 +31,12 @@ body {
     align-items: center;
     gap: 0.5rem;
     margin-left: 0;
-}
-
-
-
-.button-style {
-    gap: 0.5rem;
-    display: flex;
-    height: 2.5rem;
+    margin-bottom: -1rem;
 }
 
 .nav-link {
     margin-left: 1rem;
     padding-left: 0;
-}
-
-.navbar-collapse {
-    justify-content: inherit !important;
 }
 
 .block-search {
@@ -94,10 +77,6 @@ body {
     width: 7rem;
 }
 
-.navbar-toggler {
-    margin-left: 1rem;
-}
-
 #svg11998 {
     width: 5rem;
     height: 8rem;
@@ -116,8 +95,6 @@ body {
     height: 5rem;
     margin-top: -1.5rem;
 }
-
-
 
 .site-footer__top .region:nth-child(2n+1), .site-footer__top .region:nth-child(2n) {
     padding-right: 0;
@@ -147,7 +124,6 @@ body {
 }
 
 */
-
 
 .button .bar {
     transition: transform 300ms ease-in 300ms, 
@@ -200,8 +176,13 @@ body {
 
 
 
+.navbar-toggler {
+    margin-left: 1rem;
+}
 
-
+.navbar-collapse {
+    justify-content: inherit;
+}
 
 .arrow-remover.btn::after {
     border: none;
