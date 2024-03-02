@@ -1,22 +1,29 @@
+
 .button .bar {
     fill: black;
-    transition: rotate 0.5s ease-in, y 0.5s ease-in 0.5s, opacity 0s ease-in 0.5s;
+    transition: rotate 0.5s ease-in 0.5s, transform 1s ease-in-out 0.5s, opacity 0s ease-in 0.5s;
     transform-origin: center;
 }
+
+/*
+beroende på tiderna för transform elementet i andra delen av animationen, påverkas rotationen olika, vet inte varför, behäver hjälp. 
+Använder man sig av Y taggen som exemplet nedan finns inte detta problemet.
+*/
+
+
 
 .button:hover .bar {
     fill: black;
-    transition: rotate 0.5s ease-in 0.5s, y 0.5s ease-in, opacity 0s ease-in 0.5s;
+    transition: rotate 0.5s ease-in 0.5s, transform 0.5s ease-in, opacity 0s ease-in 0.5s;
     transform-origin: center;
 }
 
 
-.button[aria-expanded="true"] .bar_top {
-    y: 45; 
-}
+
 
 .button:hover .bar_top {
     rotate: 45deg;
+    transform: translate(0 , 25px);
 }
 
 .button:hover .bar_middle {
@@ -25,11 +32,95 @@
 
 .button:hover .bar_bottom {
     rotate: -45deg;
+    transform: translate(0, -34px);
 }
 
-.button:hover :is(.bar_top, .bar_bottom) {
-    y: 45;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.button .bar {
+    transition: transform 300ms ease-in 300ms, 
+    rotate 300ms ease-in, 
+    opacity 0ms 300ms;
+    transform-origin: center;
 }
+
+.button[aria-expanded="true"] .bar {
+    transition: transform 300ms ease-in, 
+    rotate 300ms ease-in 300ms, 
+    opacity 0ms ease-in 300ms;
+    transform-origin: center;
+}
+
+.button:hover .bar {
+    transition: transform 300ms ease-in, 
+    rotate 300ms ease-in 300ms, 
+    opacity 0ms ease-in 300ms;
+    transform-origin: center;
+}
+
+
+.bar {
+    transform-origin: center;
+}
+
+
+.button[aria-expanded="true"] .bar_top {
+    transform: translate(0 , 25px);
+    rotate: 45deg;
+}
+
+.button[aria-expanded="true"] .bar_middle {
+    opacity: 0;
+}
+
+.button[aria-expanded="true"] .bar_bottom {
+    transform: translate(0, -34px);
+    rotate: -45deg;
+}
+
+
+
+
+.button:hover .bar_top {
+    transform: translate(0 , 25px);
+    rotate: 45deg;
+}
+
+.button:hover .bar_middle {
+    opacity: 0;
+}
+
+.button:hover .bar_bottom {
+    transform: translate(0, -34px);
+    rotate: -45deg;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
