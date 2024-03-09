@@ -40,8 +40,6 @@ a, .link {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--link-hover-color);
-  text-decoration: underline;
-
 }
 
 .page-item.active .page-link {
