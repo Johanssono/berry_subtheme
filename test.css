@@ -1,7 +1,7 @@
 
 .button .bar {
     fill: black;
-    transition: rotate 0.5s ease-in 0.5s, transform 1s ease-in-out 0.5s, opacity 0s ease-in 0.5s;
+    transition: rotate 0.5s ease-in 0.2s, transform 1s ease-in-out 0.5s, opacity 0s ease-in 0.5s;
     transform-origin: center;
 }
 
@@ -17,8 +17,6 @@ Använder man sig av Y taggen som exemplet nedan finns inte detta problemet.
     transition: rotate 0.5s ease-in 0.5s, transform 0.5s ease-in, opacity 0s ease-in 0.5s;
     transform-origin: center;
 }
-
-
 
 
 .button:hover .bar_top {
