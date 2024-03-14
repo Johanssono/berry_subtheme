@@ -39,7 +39,7 @@ a, .link {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--link-hover-color);
+  color: var(--card-link-hover-color);
 }
 
 .page-item.active .page-link {
@@ -92,11 +92,11 @@ a, .link {
   left: 0;
 }
 
-.site-name-slogan, .navbar-brand, .views-row, .views-row a {
+.views-row, .views-row a {
   color: var(--text-color)
 }
 
-.site-name-slogan, .navbar-brand, .views-row, .views-row a:hover {
+.views-row a:hover {
   color: var(--card-link-hover-color)
 }
 
@@ -147,8 +147,13 @@ a, .link {
 }
 
 .navbar-toggler {
-  background-color: var(--button-color);
-  color: var(--black)  ;
+  box-shadow: none;
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 
 .dropdown-toggle:hover {

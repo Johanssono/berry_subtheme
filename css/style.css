@@ -102,7 +102,9 @@
 }
 
 
-
+.site-footer .content {
+    color: var(--text-color);
+}
 
 
 /*
@@ -155,7 +157,7 @@
 }
 
 .button[aria-expanded="true"] .bar_bottom {
-    transform: translate(0, -34px);
+    transform: translate(0, -36px);
     rotate: -45deg;
 }
 
@@ -174,11 +176,6 @@
 */
 
 
-
-
-.navbar-toggler {
-    margin-left: 1rem;
-}
 
 .navbar-collapse {
     justify-content: inherit;
@@ -247,6 +244,10 @@
 
     .view-content {
         display: block;
+    }
+
+    .views-row {
+        margin-bottom: 1rem;
     }
 
     .field--type-image img {
